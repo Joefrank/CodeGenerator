@@ -1,0 +1,5 @@
+C:\projects\websites\CodeGenerator\Data\bin\Debug\Data.dll
+C:\projects\websites\CodeGenerator\Data\bin\Debug\Data.pdb
+C:\projects\websites\CodeGenerator\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\projects\websites\CodeGenerator\Data\obj\Debug\Data.dll
+C:\projects\websites\CodeGenerator\Data\obj\Debug\Data.pdb

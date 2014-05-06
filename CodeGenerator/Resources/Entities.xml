@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>1</Id>
+  <Name>Dummy Project</Name>
+  <CreatedOn>2014-05-05T18:47:18.4801151+01:00</CreatedOn>
+  <TopDomainSeed>1</TopDomainSeed>
+  <TopEntitySeed>1</TopEntitySeed>
+  <TopFieldSeed>1</TopFieldSeed>
+</Project>

@@ -1,0 +1,14 @@
+D:\Projects\CodeGenerator\DomainModels\bin\Debug\DomainModels.dll
+D:\Projects\CodeGenerator\DomainModels\bin\Debug\DomainModels.pdb
+D:\Projects\CodeGenerator\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+D:\Projects\CodeGenerator\DomainModels\obj\Debug\DomainModels.dll
+D:\Projects\CodeGenerator\DomainModels\obj\Debug\DomainModels.pdb
+G:\Projects\CodeGenerator\DomainModels\bin\Debug\DomainModels.dll
+G:\Projects\CodeGenerator\DomainModels\bin\Debug\DomainModels.pdb
+G:\Projects\CodeGenerator\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+G:\Projects\CodeGenerator\DomainModels\obj\Debug\DomainModels.dll
+G:\Projects\CodeGenerator\DomainModels\obj\Debug\DomainModels.pdb
+C:\Projects\websites\CodeGenerator\DomainModels\bin\Debug\DomainModels.dll
+C:\Projects\websites\CodeGenerator\DomainModels\bin\Debug\DomainModels.pdb
+C:\Projects\websites\CodeGenerator\DomainModels\obj\Debug\DomainModels.dll
+C:\Projects\websites\CodeGenerator\DomainModels\obj\Debug\DomainModels.pdb

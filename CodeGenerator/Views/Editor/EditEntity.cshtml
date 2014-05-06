@@ -1,0 +1,56 @@
+﻿@model CodeGenerator.Models.EntityMashupViewModel
+
+@{
+    ViewBag.Title = "EditEntity";
+    Layout = "~/Views/Shared/Layouts/_LayoutEditorSimple.cshtml";
+}
+
+<script type="text/javascript">
+    currententityid = @Model.EntityId;
+</script>
+
+<div id="content" style="width:1200px;float:left;">
+    <h2>Entity: <span id="spEntityName">@Model.EntityId</span></h2>
+   
+    <div style="float:left;width:800px;min-height:600px;">
+     
+
+        <table id="tbEntityFields">
+            <tr id="toolbox">
+                <td colspan="6">
+                    <span class="button" onclick="AddEntityRow('tbEntityFields');">
+                        Add + 
+                    </span>
+                    <span class="button" onclick="RemoveEntityRow('tbEntityFields');">
+                        Remove -
+                    </span>
+                    <span class="button">
+                        Clone *
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="ckAllFields" /></td>
+                <td>Field Name</td>
+                <td>Field Type</td>
+                <td>Data Type</td>
+                <td>Description</td>
+                <td>Mandatory</td>
+            </tr>
+        </table>
+            
+        <p>
+            @using (Html.BeginForm("SaveEntity", "Editor"))
+                  {
+                      @Html.HiddenFor(x => x.EntityId)
+                      @Html.HiddenFor(x => x.EntityFieldXML)
+
+                      <input type="submit" value="Save Entity" onclick="return SaveEntity(@Model.EntityId)" />
+                  } 
+            
+
+        </p>
+    </div>
+</div>
+
+

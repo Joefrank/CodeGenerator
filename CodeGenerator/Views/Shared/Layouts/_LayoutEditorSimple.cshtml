@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/Site/common.js")
+    @Scripts.Render("~/Scripts/Site/classes.js")
+    @Scripts.Render("~/Scripts/Editor/main.js")
+
+</head>
+<body>
+    <div id="editor">
+    
+    <div id="top"></div>
+    
+    <div id="body">
+
+        <div class="Menu">
+            <a href="/Editor/ManageEntities" title="Manage entities">Manage Entities</a>
+        </div>
+    
+        <div id="actions">
+            @RenderBody()
+        </div>
+
+     </div>
+    
+
+    @Scripts.Render("~/bundles/jquery")
+   
+</div>
+
+  
+    
+
+</body>
+</html>
+
